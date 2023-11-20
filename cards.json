@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Charizard",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Pikachu",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Bulbasaur",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Squirtle",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Jigglypuff",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Mewtwo",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Gyarados",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Dragonite",
+        "rarity":"Uncommon",
+        "value" : 75
+    },
+    {
+        "name":"Mew",
+        "rarity":"Legendary",
+        "value" : 200
+    },
+    {
+        "name":"Arcanine",
+        "rarity":"Uncommon",
+        "value" : 75
+    },
+    {
+        "name":"Eevee",
+        "rarity":"Common",
+        "value" : 50
+    },
+    {
+        "name":"Vaporeon",
+        "rarity":"Rare",
+        "value" : 100
+    },
+    {
+        "name":"Alakazam",
+        "rarity":"Rare",
+        "value" : 100
+    },
+    {
+        "name":"Gengar",
+        "rarity":"Rare",
+        "value" : 100
+    },
+    {
+        "name":"Jolteon",
+        "rarity":"Rare",
+        "value" : 100
+    },
+    {
+        "name":"Zapdos",
+        "rarity":"Legendary",
+        "value" : 200
+    },
+    {
+        "name":"Raikou",
+        "rarity":"Legendary",
+        "value" : 200
+    },
+    {
+        "name":"Lugia",
+        "rarity":"Legendary",
+        "value" : 200
+    },
+    {
+        "name": "Snorlax",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Raichu",
+        "rarity": "Uncommon",
+        "value": 75
+    }
+]
