@@ -28,7 +28,7 @@ basic_userdata = {
     
 
 def addUser(userid):
-    if (getUserIndex(userid) == None):return
+    if (getUserIndex(userid) != -1):return
     userdata = getJsonData('./users.json')
     newdata = basic_userdata
     newdata['userid'] = userid
@@ -40,7 +40,7 @@ def getUserIndex(userid):
     userdata = getJsonData('./users.json')
     for i in range(len(userdata)):
             if (userdata[i]['userid'] == userid):return i  
-    return None
+    return -1
 
 
 
