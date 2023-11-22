@@ -4,77 +4,9 @@ import random
 from general import *
 import requests
 
-
-
-
-def getCardNames():
-    carddata = getJsonData('./cards.json')
-    cardnames = []
-    for card in carddata:
-        cardnames.append(card['name'].lower())
-    return cardnames
-
-cardnames = getCardNames()
-
-
-
-basic_userdata = {
-        "userid": "",
-        "money": 0,
-        "last_opened": 0.0,
-        "cards":[
-
-        ]
-    }
-    
-
-def addUser(userid : str) -> None:
-    if (getUserIndex(userid) != -1):return
-    userdata = getJsonData('./users.json')
-    newdata = basic_userdata
-    newdata['userid'] = userid
-    userdata.append(newdata)
-    writeJsonData('./users.json', userdata)
-
-
-def getUserIndex(userid : str) -> int:
-    userdata = getJsonData('./users.json')
-    for i in range(len(userdata)):
-            if (userdata[i]['userid'] == userid):return i  
-    return -1
-
-def getToken() -> str:
-    tokendata = getJsonData('./token.json')
-    return tokendata[1]["access_token"]
-
-def getClientID() -> str:
-    tokendata = getJsonData('./token.json')
-    return tokendata[0]['clientid']
-
-async def getUserData(userid : str = None, userlogin : str = None) -> dict:
-    if userid != None:
-        data = f'?id={userid}'
-    elif userlogin != None:
-        data = f'?login={userlogin}'
-    else:
-        return None
-    
-    token = getToken()
-    clientid = getClientID()
-    twitch_headers = {
-        'Authorization': f'Bearer {token}',
-        'Client-Id': f'{clientid}'
-        }
-    res = requests.get(f'https://api.twitch.tv/helix/users{data}', headers=twitch_headers)
-    if res.status_code != 200:
-        print(f'Error while getting user data | {res.status_code} {res.json()}')
-        return None
-    return res.json()
-
-
-
 oauth_token = refreshToken()
-
+cardnames = getCardNames()
+print(cardnames)
 class Bot(commands.Bot):
 
     def __init__(self):
@@ -113,14 +45,15 @@ class Bot(commands.Bot):
         userdata[userIndex]['last_opened'] = now
 
 
-        cardinvIndex = False
+        cardinvIndex = -1
 
         if (len(userdata[userIndex]['cards']) > 0):
             for i in range(len(userdata[userIndex]['cards'])):
                 if (userdata[userIndex]['cards'][i]['name']) == card['name']:
                     cardinvIndex = i
+                    break
 
-        if (not cardinvIndex):
+        if (cardinvIndex == -1):
             userdata[userIndex]['cards'].append({
                 "name": card['name'],
                 "amount": 1
@@ -131,70 +64,84 @@ class Bot(commands.Bot):
         writeJsonData('./users.json',userdata)
         await ctx.send(f"@{username}, you unpacked a {card['rarity']} {card['name']}. Type !sell to sell it for {card['value']} coins woah") 
 
-
-
-
-    @commands.command() # flekyu: !sell [card_name]
+    @commands.command()
     async def sell(self, ctx: commands.Context):
         addUser(ctx.author.id)
 
         args = ctx.message.content.lower().split(' ')
-        amount = 0
-        if (len(args) < 2): return
-        
+        args.pop(0)
+
+        if len(args) < 1: return
 
         username = ctx.author.name.lower()
 
+        cards = args[0].split(',')
 
-        card_name = args[1]
-
-
-        if (not (card_name in cardnames)): 
-            await ctx.send(f'@{username} unknown card mad')
+        amounts = ['1']
+        if len(args) > 1:
+            amounts = args[1].split(',')
+            if (len(amounts) < len(cards)):
+                amounts += ['1'] * (len(cards) - len(amounts))
+                
+        if (len(cards) < 1) or (len(amounts) < 1): 
+            await ctx.send(f'@{ctx.author.name} invalid params doid')
             return
-
+        
+        for card in cards:
+            if not (card in cardnames):
+                await ctx.send(f'@{username} unknown card entered mad')
+                return
+        
         carddata = getJsonData('./cards.json')
         userdata = getJsonData('./users.json')
         userIndex = getUserIndex(ctx.author.id)
 
-        for i in range(len(carddata)):
-            if (carddata[i]['name'].lower() == card_name):
-                cardIndex = i
+        cardIndexs = []
+        for i in range(len(cards)):
+            cardIndexs.append(cardnames.index(cards[i]))
 
+        usercardIndexs = [-1] * len(cards)
+        usercards = []
 
-        usercardIndex = None
         for i in range(len(userdata[userIndex]['cards'])):
-            if (userdata[userIndex]['cards'][i]['name'].lower() == card_name):
-                usercardIndex = i
-                break
+            usercards.append(userdata[userIndex]['cards'][i]['name'].lower())
+        
+        for i in range(len(cards)):
+            usercardIndexs[i] = usercards.index(cards[i])
 
-        if (usercardIndex == None): 
-            await ctx.send(f'@{username} you have no {card_name.capitalize()} cards! doid')
-            return
-
-        if (len(args) == 2): amount = 1
-        else:
-            if (not args[2].isnumeric()):
-                if (args[2] == 'all'):
-                    amount = userdata[userIndex]['cards'][usercardIndex]['amount']
-                else:
-                    return
-            else:
-                amount = int(args[2])
-
-        if (amount < 1):
-            return
-
-        if (amount > userdata[userIndex]['cards'][usercardIndex]['amount']): 
-            await ctx.send(f"@{username} you don't have {amount} {card_name.capitalize()} cards doid")
+        if -1 in usercardIndexs:
+            await ctx.send(f'@{username} you have no {cards[cards.index(-1)]} cards! doid')
             return
         
-        userdata[userIndex]['cards'][usercardIndex]['amount'] -= amount
-        revenue = carddata[cardIndex]['value'] * amount
+
+        for i in range(len(amounts)):
+            if (not amounts[i].isnumeric() and amounts[i] != 'all'):
+                amounts[i] = 1
+            elif (amounts[i] == 'all'):
+                amounts[i] = userdata[userIndex]['cards'][usercardIndexs[i]]['amount']
+            else:
+                amounts[i] = int(amounts[i])
+            if (amounts[i] > userdata[userIndex]['cards'][usercardIndexs[i]]['amount']):
+                print(amounts[i], userdata[userIndex]['cards'][usercardIndexs[i]]['amount'])
+                await ctx.send(f"@{username} you don't have {amounts[i]} {cards[i]} cards doid")
+                return
+        
+        revenue = 0
+        for i in range(len(cards)):
+            userdata[userIndex]['cards'][usercardIndexs[i]]['amount'] -= amounts[i]
+            revenue += carddata[cardIndexs[i]]['value'] * amounts[i]
+        
         userdata[userIndex]['money'] += revenue
 
         writeJsonData('./users.json', userdata)
-        await ctx.send(f'@{username} succesfully sold {amount} {card_name.capitalize()} cards for {revenue:,.2f} woah') 
+        if (len(amounts) == 1): outputAmount = amounts[0]
+        else: outputAmount = 'a bunch of'
+
+        outputCards = ''
+        for card in cards:
+            outputCards += f'{card.title()}, '
+        outputCards[:-2]
+        await ctx.send(f'@{username} succesfully sold {outputAmount} {outputCards} cards for {revenue:,.2f} woah')
 
     @commands.command()
     async def col(self, ctx: commands.Context):
@@ -233,6 +180,10 @@ class Bot(commands.Bot):
             return
         money = userdata[userIndex]['money']
         await ctx.send(f'${money:,.2f} {cards}')
+
+    @commands.command()
+    async def trade(self, ctx: commands.Context):
+        1
         
 
 
