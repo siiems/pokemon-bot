@@ -2,6 +2,7 @@ from twitchio.ext import commands
 import time
 import random
 from general import *
+import requests
 
 
 
@@ -27,7 +28,7 @@ basic_userdata = {
     }
     
 
-def addUser(userid):
+def addUser(userid : str) -> None:
     if (getUserIndex(userid) != -1):return
     userdata = getJsonData('./users.json')
     newdata = basic_userdata
@@ -36,12 +37,39 @@ def addUser(userid):
     writeJsonData('./users.json', userdata)
 
 
-def getUserIndex(userid):
+def getUserIndex(userid : str) -> int:
     userdata = getJsonData('./users.json')
     for i in range(len(userdata)):
             if (userdata[i]['userid'] == userid):return i  
     return -1
 
+def getToken() -> str:
+    tokendata = getJsonData('./token.json')
+    return tokendata[1]["access_token"]
+
+def getClientID() -> str:
+    tokendata = getJsonData('./token.json')
+    return tokendata[0]['clientid']
+
+async def getUserData(userid : str = None, userlogin : str = None) -> dict:
+    if userid != None:
+        data = f'?id={userid}'
+    elif userlogin != None:
+        data = f'?login={userlogin}'
+    else:
+        return None
+    
+    token = getToken()
+    clientid = getClientID()
+    twitch_headers = {
+        'Authorization': f'Bearer {token}',
+        'Client-Id': f'{clientid}'
+        }
+    res = requests.get(f'https://api.twitch.tv/helix/users{data}', headers=twitch_headers)
+    if res.status_code != 200:
+        print(f'Error while getting user data | {res.status_code} {res.json()}')
+        return None
+    return res.json()
 
 
 
@@ -50,7 +78,7 @@ oauth_token = refreshToken()
 class Bot(commands.Bot):
 
     def __init__(self):
-        super().__init__(token=f'oauth:{oauth_token}', prefix='!', initial_channels=['flekyu','dluxpup','oshgay','siiems'])
+        super().__init__(token=f'oauth:{oauth_token}', prefix='*', initial_channels=['siiems'])
 
     async def event_ready(self):
         print(f'Bot connected to Twitch')
@@ -169,27 +197,42 @@ class Bot(commands.Bot):
         await ctx.send(f'@{username} succesfully sold {amount} {card_name.capitalize()} cards for {revenue:,.2f} woah') 
 
     @commands.command()
-    async def collection(self, ctx: commands.Context):
+    async def col(self, ctx: commands.Context):
         addUser(ctx.author.id)
+        args = ctx.message.content.lower().split(' ')
+        args.pop(0)
+        if (len(args) > 0):
+            if args[0].isnumeric(): targetUser = args[0]
+            else:
+                if args[0].startswith('@'): args[0] = args[0][1:]
+                targetUserJSON = await getUserData(userlogin=args[0])
+                if not targetUserJSON:
+                    print('Error while fetching user data in "col" command!')
+                    return
+                targetUser = targetUserJSON['data'][0]['id']
+        else:
+            targetUser = ctx.author.id
 
+        refer = 'you'
+        if targetUser != ctx.author.id: refer = 'they'
         userdata = getJsonData('./users.json')
-        userIndex = getUserIndex(ctx.author.id)
-
-        if (len(userdata[userIndex]['cards']) < 1):
-            await ctx.send(f'@{ctx.author.display_name} you have 0 cards! mad')
+        userIndex = getUserIndex(targetUser)
+        if userIndex == -1:
+            await ctx.send(f'@{ctx.author.name} that user has no data! mad')
             return
-        
-        originallen = len(f"@{ctx.author.display_name}'s cards: ")
-        cards = f"@{ctx.author.display_name}'s cards: "
+        if (len(userdata[userIndex]['cards']) < 1):
+            await ctx.send(f'@{ctx.author.display_name} {refer} have 0 cards! mad')
+            return
+        cards = ""
+        originallen = 0
         for card in userdata[userIndex]['cards']:
             if card['amount'] > 0:
-                cards += f'| {card["name"].capitalize()}: {card["amount"]} '
-
+                cards += f'| {card["name"].capitalize()} {card["amount"]} '
         if (len(cards) == originallen):
-            await ctx.send(f'@{ctx.author.display_name} you have 0 cards! mad')
+            await ctx.send(f'@{ctx.author.display_name} {refer} have 0 cards! mad')
             return
-        
-        await ctx.send(f'{cards} Smile')
+        money = userdata[userIndex]['money']
+        await ctx.send(f'${money:,.2f} {cards}')
         
 
 
