@@ -3,10 +3,11 @@ import time
 import random
 from general import *
 import requests
+import math
 
 oauth_token = refreshToken()
 cardnames = getCardNames()
-print(cardnames)
+
 class Bot(commands.Bot):
 
     def __init__(self):
@@ -179,7 +180,21 @@ class Bot(commands.Bot):
             await ctx.send(f'@{ctx.author.display_name} {refer} have 0 cards! mad')
             return
         money = userdata[userIndex]['money']
-        await ctx.send(f'${money:,.2f} {cards}')
+        output = f'${money:,.2f} {cards}'
+        if (len(output) < 500):
+            await ctx.send(f'${money:,.2f} {cards}')
+        else:
+            cards = cards.split('|')
+            cards.pop(0)
+            cardsA, cardsB = '', ''
+            for i in range(math.ceil(len(cards) / 2)):
+                cardsA += (f'| {cards[i]} ')
+            for i in range(math.floor(len(cards) / 2)):
+                i += math.ceil(len(cards) / 2)
+                cardsB += (f'| {cards[i]} ')
+            await ctx.send(f'${money:,.2f} {cardsA}')
+            await ctx.send(f'{cardsB}')
+        
 
     @commands.command()
     async def trade(self, ctx: commands.Context):
