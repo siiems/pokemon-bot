@@ -60,9 +60,17 @@ basic_userdata = {
         ]
     }
     
+def getUserIndex(userid : str) -> int:
+    userdata = getJsonData('./users.json')
+    for i in range(len(userdata)):
+            if (userdata[i]['userid'] == userid):
+                return i  
+    return -1
+
 
 def addUser(userid : str) -> None:
-    if (getUserIndex(userid) != -1):return
+    if (getUserIndex(userid) != -1):
+        return
     userdata = getJsonData('./users.json')
     newdata = basic_userdata
     newdata['userid'] = userid
@@ -70,11 +78,7 @@ def addUser(userid : str) -> None:
     writeJsonData('./users.json', userdata)
 
 
-def getUserIndex(userid : str) -> int:
-    userdata = getJsonData('./users.json')
-    for i in range(len(userdata)):
-            if (userdata[i]['userid'] == userid):return i  
-    return -1
+
 
 def getToken() -> str:
     tokendata = getJsonData('./token.json')
@@ -103,3 +107,26 @@ async def getUserData(userid : str = None, userlogin : str = None) -> dict:
         print(f'Error while getting user data | {res.status_code} {res.json()}')
         return None
     return res.json()
+
+def fixdata() -> int:
+    users = getJsonData('./users.json')
+    prevUsers = []
+    fuckups = 0
+    for i in range(len(users)):
+        if (users[i]['userid'] not in prevUsers):
+            prevUsers.append(users[i]['userid'])
+        else:
+            users[i] = {}
+            fuckups += 1
+            continue
+        prevCards = []
+        for j in range(len(users[i]['cards'])):
+            if (users[i]['cards'][j]['name'] not in prevCards):
+                prevCards.append(users[i]['cards'][j]['name'])
+            else:
+                users[i]['cards'][j] = {}
+                fuckups += 1
+        users[i]['cards'] = list(filter(lambda a: a != {}, users[i]['cards']))
+    users = list(filter(lambda a: a != {}, users))
+    writeJsonData('./users.json', users)
+    return fuckups

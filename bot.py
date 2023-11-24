@@ -11,7 +11,7 @@ cardnames = getCardNames()
 class Bot(commands.Bot):
 
     def __init__(self):
-        super().__init__(token=f'oauth:{oauth_token}', prefix='*', initial_channels=['siiems'])
+        super().__init__(token=f'oauth:{oauth_token}', prefix='*', initial_channels=['flekyu'])
 
     async def event_ready(self):
         print(f'Bot connected to Twitch')
@@ -26,26 +26,20 @@ class Bot(commands.Bot):
     async def open(self, ctx: commands.Context):
         addUser(ctx.author.id)
 
-
         username = ctx.author.name.lower()
-
         userIndex = getUserIndex(ctx.author.id)
-
         userdata = getJsonData('./users.json')
         carddata = getJsonData('./cards.json')
-
         now = time.time()
-
         configdata = getJsonData('./config.json')
         cooldown = configdata['cooldown_minutes'] * 60
 
         if now - userdata[userIndex]['last_opened'] < cooldown:
             await ctx.send(f"@{username}, you can open another pack in {round(((userdata[userIndex]['last_opened']+cooldown)-now) / 60,2)} minutes. mad")
             return 
+        
         card = random.choice(carddata)  # Randomly select a card from the list
         userdata[userIndex]['last_opened'] = now
-
-
         cardinvIndex = -1
 
         if (len(userdata[userIndex]['cards']) > 0):
@@ -68,17 +62,16 @@ class Bot(commands.Bot):
     @commands.command()
     async def sell(self, ctx: commands.Context):
         addUser(ctx.author.id)
-
+        
         args = ctx.message.content.lower().split(' ')
         args.pop(0)
 
         if len(args) < 1: return
 
         username = ctx.author.name.lower()
-
         cards = args[0].split(',')
-
         amounts = ['1']
+
         if len(args) > 1:
             amounts = args[1].split(',')
             if (len(amounts) < len(cards)):
@@ -204,7 +197,10 @@ class Bot(commands.Bot):
         
         now = time.time()
 
-
+    @commands.command()
+    async def fixdata(self, ctx: commands.Context):
+        fuckups = fixdata()
+        await ctx.send(f'There were {fuckups} problems in the data! more')    
         
 
 
