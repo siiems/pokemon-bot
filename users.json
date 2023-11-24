@@ -1,26 +1,486 @@
 [
     {
         "userid": "179656579",
-        "money": 1575,
-        "last_opened": 1700517757.1419213,
+        "money": 2075,
+        "last_opened": 1700773426.7417743,
         "cards": [
-            {
-                "name": "Dragonite",
-                "amount": 0
-            },
             {
                 "name": "Jigglypuff",
                 "amount": 0
+            },
+            {
+                "name": "Zapdos",
+                "amount": 0
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Lugia",
+                "amount": 3
+            },
+            {
+                "name": "Snorlax",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 1
+            },
+            {
+                "name": "Squirtle",
+                "amount": 0
+            },
+            {
+                "name": "Charizard",
+                "amount": 2
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 2
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 2
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 0
+            },
+            {
+                "name": "Raichu",
+                "amount": 2
+            },
+            {
+                "name": "Gengar",
+                "amount": 0
+            },
+            {
+                "name": "Pikachu",
+                "amount": 2
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Mew",
+                "amount": 1
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Doduo",
+                "amount": 1
+            },
+            {
+                "name": "Alakazam",
+                "amount": 2
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
             }
         ]
     },
     {
         "userid": "131775749",
-        "money": 0,
-        "last_opened": 1700514899.8891706,
+        "money": 10000,
+        "last_opened": 1700795513.7452073,
         "cards": [
             {
                 "name": "Squirtle",
+                "amount": 0
+            },
+            {
+                "name": "Gengar",
+                "amount": 0
+            },
+            {
+                "name": "Raichu",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 2
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 0
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Raikou",
+                "amount": 0
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 0
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Lugia",
+                "amount": 4
+            },
+            {
+                "name": "Gyarados",
+                "amount": 0
+            },
+            {
+                "name": "Charizard",
+                "amount": 0
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 0
+            },
+            {
+                "name": "Jolteon",
+                "amount": 3
+            },
+            {
+                "name": "Voltorb",
+                "amount": 0
+            },
+            {
+                "name": "Clefairy",
+                "amount": 0
+            },
+            {
+                "name": "Caterpie",
+                "amount": 0
+            },
+            {
+                "name": "Machop",
+                "amount": 0
+            },
+            {
+                "name": "Snorlax",
+                "amount": 0
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 0
+            },
+            {
+                "name": "Grimer",
+                "amount": 0
+            },
+            {
+                "name": "Mew",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 0
+            },
+            {
+                "name": "Koffing",
+                "amount": 0
+            },
+            {
+                "name": "Sandshrew",
+                "amount": 0
+            },
+            {
+                "name": "Pidgey",
+                "amount": 0
+            },
+            {
+                "name": "Geodude",
+                "amount": 1
+            },
+            {
+                "name": "Alakazam",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Zapdos",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Entei",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 1
+            },
+            {
+                "name": "Arcanine",
+                "amount": 1
+            },
+            {
+                "name": "Raichu",
+                "amount": 5
+            },
+            {
+                "name": "Alakazam",
+                "amount": 1
+            },
+            {
+                "name": "Geodude",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Sandshrew",
+                "amount": 1
+            },
+            {
+                "name": "Growlithe",
+                "amount": 1
+            },
+            {
+                "name": "Grimer",
+                "amount": 1
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 2
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Clefairy",
+                "amount": 1
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 1
+            },
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Alakazam",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 2
+            },
+            {
+                "name": "Grimer",
+                "amount": 2
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Alakazam",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 1
+            },
+            {
+                "name": "Zapdos",
+                "amount": 1
+            },
+            {
+                "name": "Alakazam",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 2
+            },
+            {
+                "name": "Dragonite",
+                "amount": 2
+            },
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Grimer",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Arcanine",
+                "amount": 1
+            },
+            {
+                "name": "Caterpie",
+                "amount": 1
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 1
+            },
+            {
+                "name": "Gyarados",
+                "amount": 2
+            },
+            {
+                "name": "Sandshrew",
+                "amount": 2
+            },
+            {
+                "name": "Alakazam",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 2
+            },
+            {
+                "name": "Gastly",
+                "amount": 2
+            },
+            {
+                "name": "Koffing",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Charizard",
+                "amount": 3
+            },
+            {
+                "name": "Eevee",
+                "amount": 2
+            },
+            {
+                "name": "Growlithe",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Machop",
+                "amount": 3
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Arcanine",
+                "amount": 1
+            },
+            {
+                "name": "Sandshrew",
+                "amount": 1
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 2
+            },
+            {
+                "name": "Lugia",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
                 "amount": 1
             }
         ]
@@ -32,7 +492,7 @@
         "cards": [
             {
                 "name": "Zapdos",
-                "amount": 1
+                "amount": 0
             }
         ]
     },
@@ -50,23 +510,3303 @@
     {
         "userid": "141782237",
         "money": 0,
-        "last_opened": 1700516284.4409454,
+        "last_opened": 1700766933.1554995,
         "cards": [
             {
                 "name": "Jigglypuff",
                 "amount": 1
+            },
+            {
+                "name": "Gyarados",
+                "amount": 2
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 3
+            },
+            {
+                "name": "Arcanine",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 1
+            },
+            {
+                "name": "Lugia",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 3
+            },
+            {
+                "name": "Raichu",
+                "amount": 1
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 2
+            },
+            {
+                "name": "Magnemite",
+                "amount": 2
             }
         ]
     },
     {
         "userid": "540293673",
         "money": 0,
-        "last_opened": 1700516313.6378677,
+        "last_opened": 1700779103.224304,
         "cards": [
             {
                 "name": "Alakazam",
                 "amount": 1
+            },
+            {
+                "name": "Machop",
+                "amount": 1
+            },
+            {
+                "name": "Bellsprout",
+                "amount": 1
+            },
+            {
+                "name": "Ho-oh",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 6
             }
         ]
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "179656579",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "141782237",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "131775749",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "693058233",
+        "money": 75,
+        "last_opened": 1700793783.908133,
+        "cards": [
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Alakazam",
+                "amount": 1
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 1
+            },
+            {
+                "name": "Doduo",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 1
+            },
+            {
+                "name": "Gyarados",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 1
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 2
+            },
+            {
+                "name": "Doduo",
+                "amount": 2
+            },
+            {
+                "name": "Gyarados",
+                "amount": 8
+            }
+        ]
+    },
+    {
+        "userid": "185142151",
+        "money": 50,
+        "last_opened": 1700835861.9710567,
+        "cards": [
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Pikachu",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 2
+            },
+            {
+                "name": "Jolteon",
+                "amount": 2
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 2
+            },
+            {
+                "name": "Poliwag",
+                "amount": 2
+            },
+            {
+                "name": "Snorlax",
+                "amount": 1
+            },
+            {
+                "name": "Mankey",
+                "amount": 2
+            },
+            {
+                "name": "Growlithe",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 2
+            },
+            {
+                "name": "Machop",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Ho-Oh",
+                "amount": 1
+            },
+            {
+                "name": "Caterpie",
+                "amount": 1
+            },
+            {
+                "name": "Spearow",
+                "amount": 1
+            },
+            {
+                "name": "Entei",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 1
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Ho-oh",
+                "amount": 6
+            },
+            {
+                "name": "Caterpie",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Charizard",
+                "amount": 2
+            },
+            {
+                "name": "Mankey",
+                "amount": 6
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Caterpie",
+                "amount": 5
+            }
+        ]
+    },
+    {
+        "userid": "435138565",
+        "money": 0,
+        "last_opened": 1700761823.1229677,
+        "cards": [
+            {
+                "name": "Raichu",
+                "amount": 1
+            },
+            {
+                "name": "Pidgey",
+                "amount": 1
+            },
+            {
+                "name": "Pikachu",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 1
+            },
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 1
+            },
+            {
+                "name": "Psyduck",
+                "amount": 7
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "168032126",
+        "money": 125,
+        "last_opened": 1700752337.0119274,
+        "cards": [
+            {
+                "name": "Bulbasaur",
+                "amount": 1
+            },
+            {
+                "name": "Gyarados",
+                "amount": 1
+            },
+            {
+                "name": "Zapdos",
+                "amount": 1
+            },
+            {
+                "name": "Machop",
+                "amount": 0
+            },
+            {
+                "name": "Spearow",
+                "amount": 0
+            },
+            {
+                "name": "Gastly",
+                "amount": 2
+            },
+            {
+                "name": "Gyarados",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "163125321",
+        "money": 0,
+        "last_opened": 1700786804.0914633,
+        "cards": [
+            {
+                "name": "Pikachu",
+                "amount": 1
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Rattata",
+                "amount": 1
+            },
+            {
+                "name": "Arcanine",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 1
+            },
+            {
+                "name": "Sandshrew",
+                "amount": 1
+            },
+            {
+                "name": "Oddish",
+                "amount": 1
+            },
+            {
+                "name": "Grimer",
+                "amount": 1
+            },
+            {
+                "name": "Poliwag",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "userid": "279110934",
+        "money": 725,
+        "last_opened": 1700797957.6381187,
+        "cards": [
+            {
+                "name": "Jigglypuff",
+                "amount": 0
+            },
+            {
+                "name": "Eevee",
+                "amount": 0
+            },
+            {
+                "name": "Alakazam",
+                "amount": 0
+            },
+            {
+                "name": "Magnemite",
+                "amount": 1
+            },
+            {
+                "name": "Growlithe",
+                "amount": 0
+            },
+            {
+                "name": "Gastly",
+                "amount": 0
+            },
+            {
+                "name": "Wurmple",
+                "amount": 0
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 0
+            },
+            {
+                "name": "Weedle",
+                "amount": 2
+            },
+            {
+                "name": "Mew",
+                "amount": 1
+            },
+            {
+                "name": "Raichu",
+                "amount": 1
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 1
+            },
+            {
+                "name": "Psyduck",
+                "amount": 2
+            },
+            {
+                "name": "Gengar",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 2
+            },
+            {
+                "name": "Koffing",
+                "amount": 1
+            },
+            {
+                "name": "Spearow",
+                "amount": 1
+            },
+            {
+                "name": "Meowth",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Bellsprout",
+                "amount": 3
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 5
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 2
+            },
+            {
+                "name": "Meowth",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Mew",
+                "amount": 4
+            },
+            {
+                "name": "Meowth",
+                "amount": 2
+            },
+            {
+                "name": "Magnemite",
+                "amount": 2
+            },
+            {
+                "name": "Magnemite",
+                "amount": 1
+            },
+            {
+                "name": "Mew",
+                "amount": 2
+            },
+            {
+                "name": "Spearow",
+                "amount": 1
+            },
+            {
+                "name": "Mew",
+                "amount": 3
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Koffing",
+                "amount": 3
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 2
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 1
+            },
+            {
+                "name": "Weedle",
+                "amount": 1
+            },
+            {
+                "name": "Raichu",
+                "amount": 1
+            },
+            {
+                "name": "Weedle",
+                "amount": 6
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 1
+            },
+            {
+                "name": "Growlithe",
+                "amount": 2
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 3
+            },
+            {
+                "name": "Weedle",
+                "amount": 2
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 4
+            },
+            {
+                "name": "Eevee",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 7
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Bellsprout",
+                "amount": 2
+            },
+            {
+                "name": "Drowzee",
+                "amount": 3
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Weedle",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 2
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 3
+            },
+            {
+                "name": "Raichu",
+                "amount": 1
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 2
+            },
+            {
+                "name": "Alakazam",
+                "amount": 7
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 5
+            },
+            {
+                "name": "Growlithe",
+                "amount": 3
+            },
+            {
+                "name": "Meowth",
+                "amount": 7
+            },
+            {
+                "name": "Gengar",
+                "amount": 3
+            },
+            {
+                "name": "Psyduck",
+                "amount": 2
+            },
+            {
+                "name": "Vulpix",
+                "amount": 2
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 2
+            },
+            {
+                "name": "Mew",
+                "amount": 5
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 2
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 2
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "63205486",
+        "money": 125,
+        "last_opened": 1700760071.0496635,
+        "cards": [
+            {
+                "name": "Squirtle",
+                "amount": 0
+            },
+            {
+                "name": "Gyarados",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 1
+            },
+            {
+                "name": "Mew",
+                "amount": 1
+            },
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Ho-Oh",
+                "amount": 1
+            },
+            {
+                "name": "Sandshrew",
+                "amount": 1
+            },
+            {
+                "name": "Charizard",
+                "amount": 2
+            },
+            {
+                "name": "Dragonite",
+                "amount": 0
+            },
+            {
+                "name": "Pikachu",
+                "amount": 1
+            },
+            {
+                "name": "Abra",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "userid": "546292461",
+        "money": 0,
+        "last_opened": 1700685012.0320005,
+        "cards": [
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Abra",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "176684472",
+        "money": 200,
+        "last_opened": 1700677670.5572765,
+        "cards": [
+            {
+                "name": "Jigglypuff",
+                "amount": 1
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Doduo",
+                "amount": 1
+            },
+            {
+                "name": "Lugia",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "userid": "513928114",
+        "money": 0,
+        "last_opened": 1700714841.754775,
+        "cards": [
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Pikachu",
+                "amount": 1
+            },
+            {
+                "name": "Pikachu",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "userid": "27805735",
+        "money": 0,
+        "last_opened": 1700620183.386245,
+        "cards": [
+            {
+                "name": "Eevee",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "48036540",
+        "money": 50,
+        "last_opened": 1700767546.3343136,
+        "cards": [
+            {
+                "name": "Raikou",
+                "amount": 1
+            },
+            {
+                "name": "Snorlax",
+                "amount": 1
+            },
+            {
+                "name": "Zapdos",
+                "amount": 1
+            },
+            {
+                "name": "Rattata",
+                "amount": 1
+            },
+            {
+                "name": "Spearow",
+                "amount": 1
+            },
+            {
+                "name": "Caterpie",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 2
+            },
+            {
+                "name": "Koffing",
+                "amount": 1
+            },
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Pikachu",
+                "amount": 1
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 3
+            }
+        ]
+    },
+    {
+        "userid": "160384113",
+        "money": 675,
+        "last_opened": 1700763110.3477755,
+        "cards": [
+            {
+                "name": "Raichu",
+                "amount": 0
+            },
+            {
+                "name": "Squirtle",
+                "amount": 0
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 1
+            },
+            {
+                "name": "Spearow",
+                "amount": 0
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 0
+            },
+            {
+                "name": "Ho-Oh",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 0
+            },
+            {
+                "name": "Vulpix",
+                "amount": 0
+            },
+            {
+                "name": "Zapdos",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 0
+            },
+            {
+                "name": "Grimer",
+                "amount": 0
+            },
+            {
+                "name": "Arcanine",
+                "amount": 0
+            },
+            {
+                "name": "Mew",
+                "amount": 5
+            },
+            {
+                "name": "Squirtle",
+                "amount": 6
+            }
+        ]
+    },
+    {
+        "userid": "224319842",
+        "money": 0,
+        "last_opened": 1700796025.856745,
+        "cards": [
+            {
+                "name": "Caterpie",
+                "amount": 1
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 4
+            },
+            {
+                "name": "Weedle",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 2
+            },
+            {
+                "name": "Grimer",
+                "amount": 1
+            },
+            {
+                "name": "Machop",
+                "amount": 2
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 2
+            },
+            {
+                "name": "Abra",
+                "amount": 1
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Entei",
+                "amount": 1
+            },
+            {
+                "name": "Alakazam",
+                "amount": 2
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Caterpie",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Gengar",
+                "amount": 1
+            },
+            {
+                "name": "Growlithe",
+                "amount": 2
+            },
+            {
+                "name": "Meowth",
+                "amount": 1
+            },
+            {
+                "name": "Spearow",
+                "amount": 2
+            },
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 1
+            },
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 3
+            },
+            {
+                "name": "Entei",
+                "amount": 2
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 1
+            },
+            {
+                "name": "Entei",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Squirtle",
+                "amount": 1
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Spearow",
+                "amount": 1
+            },
+            {
+                "name": "Entei",
+                "amount": 3
+            },
+            {
+                "name": "Meowth",
+                "amount": 2
+            },
+            {
+                "name": "Gengar",
+                "amount": 2
+            },
+            {
+                "name": "Growlithe",
+                "amount": 2
+            },
+            {
+                "name": "Magnemite",
+                "amount": 1
+            },
+            {
+                "name": "Machop",
+                "amount": 2
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Meowth",
+                "amount": 3
+            },
+            {
+                "name": "Drowzee",
+                "amount": 4
+            },
+            {
+                "name": "Abra",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 2
+            },
+            {
+                "name": "Psyduck",
+                "amount": 3
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Vaporeon",
+                "amount": 2
+            },
+            {
+                "name": "Machop",
+                "amount": 1
+            },
+            {
+                "name": "Magnemite",
+                "amount": 5
+            },
+            {
+                "name": "Caterpie",
+                "amount": 5
+            },
+            {
+                "name": "Entei",
+                "amount": 2
+            },
+            {
+                "name": "Magnemite",
+                "amount": 4
+            },
+            {
+                "name": "Gastly",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 2
+            },
+            {
+                "name": "Jolteon",
+                "amount": 2
+            },
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Machop",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "221996540",
+        "money": 0,
+        "last_opened": 1700671939.0640116,
+        "cards": [
+            {
+                "name": "Jolteon",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "956579714",
+        "money": 0,
+        "last_opened": 1700784907.894693,
+        "cards": [
+            {
+                "name": "Slowpoke",
+                "amount": 1
+            },
+            {
+                "name": "Meowth",
+                "amount": 1
+            },
+            {
+                "name": "Gyarados",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Pidgey",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "userid": "956581735",
+        "money": 0,
+        "last_opened": 1700676919.9459834,
+        "cards": [
+            {
+                "name": "Geodude",
+                "amount": 1
+            },
+            {
+                "name": "Doduo",
+                "amount": 1
+            },
+            {
+                "name": "Mewtwo",
+                "amount": 1
+            },
+            {
+                "name": "Cubone",
+                "amount": 1
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Eevee",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "520655339",
+        "money": 50,
+        "last_opened": 1700699604.353937,
+        "cards": [
+            {
+                "name": "Weedle",
+                "amount": 0
+            },
+            {
+                "name": "Mankey",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Snorlax",
+                "amount": 1
+            },
+            {
+                "name": "Drowzee",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "userid": "934431975",
+        "money": 0,
+        "last_opened": 1700797964.7270222,
+        "cards": [
+            {
+                "name": "Jigglypuff",
+                "amount": 1
+            },
+            {
+                "name": "Wurmple",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 2
+            },
+            {
+                "name": "Psyduck",
+                "amount": 1
+            },
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Poliwag",
+                "amount": 1
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Koffing",
+                "amount": 1
+            },
+            {
+                "name": "Vulpix",
+                "amount": 1
+            },
+            {
+                "name": "Growlithe",
+                "amount": 1
+            },
+            {
+                "name": "Voltorb",
+                "amount": 1
+            },
+            {
+                "name": "Ho-oh",
+                "amount": 1
+            },
+            {
+                "name": "Rattata",
+                "amount": 1
+            },
+            {
+                "name": "Mankey",
+                "amount": 1
+            },
+            {
+                "name": "Dragonite",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 3
+            },
+            {
+                "name": "Oddish",
+                "amount": 2
+            },
+            {
+                "name": "Wurmple",
+                "amount": 11
+            },
+            {
+                "name": "Koffing",
+                "amount": 3
+            },
+            {
+                "name": "Oddish",
+                "amount": 6
+            },
+            {
+                "name": "Charizard",
+                "amount": 2
+            },
+            {
+                "name": "Psyduck",
+                "amount": 2
+            },
+            {
+                "name": "Mankey",
+                "amount": 5
+            },
+            {
+                "name": "Mankey",
+                "amount": 3
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 4
+            },
+            {
+                "name": "Rattata",
+                "amount": 6
+            },
+            {
+                "name": "Growlithe",
+                "amount": 4
+            },
+            {
+                "name": "Rattata",
+                "amount": 4
+            },
+            {
+                "name": "Growlithe",
+                "amount": 4
+            },
+            {
+                "name": "Charizard",
+                "amount": 1
+            },
+            {
+                "name": "Growlithe",
+                "amount": 3
+            },
+            {
+                "name": "Gastly",
+                "amount": 2
+            },
+            {
+                "name": "Rattata",
+                "amount": 4
+            },
+            {
+                "name": "Jigglypuff",
+                "amount": 4
+            },
+            {
+                "name": "Oddish",
+                "amount": 1
+            },
+            {
+                "name": "Growlithe",
+                "amount": 1
+            },
+            {
+                "name": "Bulbasaur",
+                "amount": 8
+            },
+            {
+                "name": "Ho-oh",
+                "amount": 3
+            },
+            {
+                "name": "Psyduck",
+                "amount": 9
+            },
+            {
+                "name": "Jolteon",
+                "amount": 2
+            },
+            {
+                "name": "Gastly",
+                "amount": 3
+            },
+            {
+                "name": "Dragonite",
+                "amount": 5
+            },
+            {
+                "name": "Jolteon",
+                "amount": 1
+            },
+            {
+                "name": "Gastly",
+                "amount": 5
+            }
+        ]
+    },
+    {
+        "userid": "939026425",
+        "money": 0,
+        "last_opened": 1700687240.4132817,
+        "cards": [
+            {
+                "name": "Oddish",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "userid": "567744805",
+        "money": 0,
+        "last_opened": 1700788081.0600002,
+        "cards": [
+            {
+                "name": "Oddish",
+                "amount": 8
+            }
+        ]
+    },
+    {
+        "userid": "202077139",
+        "money": 99999999999999,
+        "last_opened": 1700797528.5731874,
+        "cards": [
+            {
+                "name": "Oddish",
+                "amount": 12
+            },
+            {
+                "name": "Oddish",
+                "amount": 7
+            }
+        ]
+    },
+    {
+        "userid": "461621686",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
+    },
+    {
+        "userid": "489223884",
+        "money": 0,
+        "last_opened": 0.0,
+        "cards": []
     }
 ]

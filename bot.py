@@ -198,7 +198,13 @@ class Bot(commands.Bot):
 
     @commands.command()
     async def trade(self, ctx: commands.Context):
-        1
+        addUser(ctx.author.id)
+
+        args = ctx.message.content.lower()
+        
+        now = time.time()
+
+
         
 
 

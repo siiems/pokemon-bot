@@ -80,11 +80,6 @@
         "value" : 200
     },
     {
-        "name":"Raikou",
-        "rarity":"Legendary",
-        "value" : 200
-    },
-    {
         "name":"Lugia",
         "rarity":"Legendary",
         "value" : 200
@@ -98,5 +93,160 @@
         "name": "Raichu",
         "rarity": "Uncommon",
         "value": 75
+    },
+    {
+        "name": "Pidgey",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Rattata",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Weedle",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Caterpie",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Wurmple",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Meowth",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Psyduck",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Machop",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Abra",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Geodude",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Drowzee",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Voltorb",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Growlithe",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Gastly",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Grimer",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Cubone",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Clefairy",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Vulpix",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Magnemite",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Koffing",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Spearow",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Oddish",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Poliwag",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Bellsprout",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Mankey",
+        "rarity": "Common",
+        "value": 50
+    },
+    {
+        "name": "Sandshrew",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Slowpoke",
+        "rarity": "Uncommon",
+        "value": 75
+    },
+    {
+        "name": "Doduo",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Drowzee",
+        "rarity": "Rare",
+        "value": 100
+    },
+    {
+        "name": "Entei",
+        "rarity": "Legendary",
+        "value": 200
+    },
+    {
+        "name": "Ho-oh",
+        "rarity": "Legendary",
+        "value": 200
     }
 ]
