@@ -4,9 +4,11 @@ import random
 from general import *
 import requests
 import math
+import random
 
 oauth_token = refreshToken()
 cardnames = getCardNames()
+cardByRarity = getRarityCards()
 
 class Bot(commands.Bot):
 
@@ -38,7 +40,13 @@ class Bot(commands.Bot):
             await ctx.send(f"@{username}, you can open another pack in {round(((userdata[userIndex]['last_opened']+cooldown)-now) / 60,2)} minutes. mad")
             return 
         
-        card = random.choice(carddata)  # Randomly select a card from the list
+        cardRarity = random.choices(
+            population=['Common','Uncommon','Rare','Legendary'],
+            weights=[0.5, 0.35, 0.15, 0.01],
+        )[0]
+
+        card = random.choice(cardByRarity[cardRarity])
+
         userdata[userIndex]['last_opened'] = now
         cardinvIndex = -1
 

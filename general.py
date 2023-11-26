@@ -130,3 +130,13 @@ def fixdata() -> int:
     users = list(filter(lambda a: a != {}, users))
     writeJsonData('./users.json', users)
     return fuckups
+
+def getRarityCards():
+    carddata = getJsonData('./cards.json')
+    cardRarity = {}
+    for i in range(len(carddata)):
+        if carddata[i]['rarity'] not in cardRarity:
+            cardRarity[carddata[i]['rarity']] = [carddata[i]]
+        else:
+            cardRarity[carddata[i]['rarity']].append(carddata[i])
+    return cardRarity
