@@ -37,7 +37,7 @@ class Bot(commands.Bot):
         cooldown = configdata['cooldown_minutes'] * 60
 
         if now - userdata[userIndex]['last_opened'] < cooldown:
-            await ctx.send(f"@{username}, you can open another pack in {round(((userdata[userIndex]['last_opened']+cooldown)-now) / 60,2)} minutes. mad")
+            await ctx.send(f"/me @{username}, you can open another pack in {round(((userdata[userIndex]['last_opened']+cooldown)-now) / 60,2)} minutes. mad")
             return 
         
         cardRarity = random.choices(
@@ -65,7 +65,7 @@ class Bot(commands.Bot):
             userdata[userIndex]['cards'][cardinvIndex]['amount'] += 1
 
         writeJsonData('./users.json',userdata)
-        await ctx.send(f"@{username}, you unpacked a {card['rarity']} {card['name']}. Type !sell to sell it for {card['value']} coins woah") 
+        await ctx.send(f"/me @{username}, you unpacked a {card['rarity']} {card['name']} . Type !sell to sell it for {card['value']} coins woah") 
 
     @commands.command()
     async def sell(self, ctx: commands.Context):
@@ -86,12 +86,12 @@ class Bot(commands.Bot):
                 amounts += ['1'] * (len(cards) - len(amounts))
                 
         if (len(cards) < 1) or (len(amounts) < 1): 
-            await ctx.send(f'@{ctx.author.name} invalid params doid')
+            await ctx.send(f'/me @{ctx.author.name} invalid params doid')
             return
         
         for card in cards:
             if not (card in cardnames):
-                await ctx.send(f'@{username} unknown card entered mad')
+                await ctx.send(f'/me @{username} unknown card entered mad')
                 return
         
         carddata = getJsonData('./cards.json')
@@ -112,7 +112,7 @@ class Bot(commands.Bot):
             usercardIndexs[i] = usercards.index(cards[i])
 
         if -1 in usercardIndexs:
-            await ctx.send(f'@{username} you have no {cards[cards.index(-1)]} cards! doid')
+            await ctx.send(f'/me @{username} you have no {cards[cards.index(-1)]} cards! doid')
             return
         
 
@@ -125,7 +125,7 @@ class Bot(commands.Bot):
                 amounts[i] = int(amounts[i])
             if (amounts[i] > userdata[userIndex]['cards'][usercardIndexs[i]]['amount']):
                 print(amounts[i], userdata[userIndex]['cards'][usercardIndexs[i]]['amount'])
-                await ctx.send(f"@{username} you don't have {amounts[i]} {cards[i]} cards doid")
+                await ctx.send(f"/me @{username} you don't have {amounts[i]} {cards[i]} cards doid")
                 return
         
         revenue = 0
@@ -143,7 +143,7 @@ class Bot(commands.Bot):
         for card in cards:
             outputCards += f'{card.title()}, '
         outputCards[:-2]
-        await ctx.send(f'@{username} succesfully sold {outputAmount} {outputCards} cards for {revenue:,.2f} woah')
+        await ctx.send(f'/me @{username} succesfully sold {outputAmount} {outputCards} cards for {revenue:,.2f} woah')
 
     @commands.command()
     async def col(self, ctx: commands.Context):
@@ -167,10 +167,10 @@ class Bot(commands.Bot):
         userdata = getJsonData('./users.json')
         userIndex = getUserIndex(targetUser)
         if userIndex == -1:
-            await ctx.send(f'@{ctx.author.name} that user has no data! mad')
+            await ctx.send(f'/me @{ctx.author.name} that user has no data! mad')
             return
         if (len(userdata[userIndex]['cards']) < 1):
-            await ctx.send(f'@{ctx.author.display_name} {refer} have 0 cards! mad')
+            await ctx.send(f'/me @{ctx.author.display_name} {refer} have 0 cards! mad')
             return
         cards = ""
         originallen = 0
@@ -178,12 +178,12 @@ class Bot(commands.Bot):
             if card['amount'] > 0:
                 cards += f'| {card["name"].capitalize()} {card["amount"]} '
         if (len(cards) == originallen):
-            await ctx.send(f'@{ctx.author.display_name} {refer} have 0 cards! mad')
+            await ctx.send(f'/me @{ctx.author.display_name} {refer} have 0 cards! mad')
             return
         money = userdata[userIndex]['money']
         output = f'${money:,.2f} {cards}'
         if (len(output) < 500):
-            await ctx.send(f'${money:,.2f} {cards}')
+            await ctx.send(f'/me ${money:,.2f} {cards}')
         else:
             cards = cards.split('|')
             cards.pop(0)
@@ -193,8 +193,8 @@ class Bot(commands.Bot):
             for i in range(math.floor(len(cards) / 2)):
                 i += math.ceil(len(cards) / 2)
                 cardsB += (f'| {cards[i]} ')
-            await ctx.send(f'${money:,.2f} {cardsA}')
-            await ctx.send(f'{cardsB}')
+            await ctx.send(f'/me ${money:,.2f} {cardsA}')
+            await ctx.send(f'/me {cardsB}')
         
 
     @commands.command()
@@ -208,7 +208,7 @@ class Bot(commands.Bot):
     @commands.command()
     async def fixdata(self, ctx: commands.Context):
         fuckups = fixdata()
-        await ctx.send(f'There were {fuckups} problems in the data! more')    
+        await ctx.send(f'/me There were {fuckups} problems in the data! more')    
 
     @commands.command()
     async def spam(self, ctx: commands.Context):
