@@ -13,7 +13,7 @@ cardByRarity = getRarityCards()
 class Bot(commands.Bot):
 
     def __init__(self):
-        super().__init__(token=f'oauth:{oauth_token}', prefix='*', initial_channels=['flekyu'])
+        super().__init__(token=f'oauth:{oauth_token}', prefix=')', initial_channels=['flekyu'])
 
     async def event_ready(self):
         print(f'Bot connected to Twitch')
@@ -209,6 +209,27 @@ class Bot(commands.Bot):
     async def fixdata(self, ctx: commands.Context):
         fuckups = fixdata()
         await ctx.send(f'There were {fuckups} problems in the data! more')    
+
+    @commands.command()
+    async def spam(self, ctx: commands.Context):
+        if ((not ctx.author.id == '185142151') and (not ctx.author.id == '179656579')): 
+            return
+        message = ctx.message.content
+        args = message.split(' '); args.pop(0)
+        
+        if (len(args) < 1): 
+            print(f'Error while executing [spam] command: enter how much you want to spam dumbass')
+            return
+        
+        try: 
+            amount = int(args.pop(0))
+        except:
+            print(f'Error while executing [spam] command: invalid number dumbass')
+            return
+        
+
+        for i in range(amount):
+            await ctx.send(' '.join(args))
         
 
 
