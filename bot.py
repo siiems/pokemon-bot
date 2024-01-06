@@ -5,12 +5,19 @@ from general import *
 import requests
 import math
 import random
+from config import *
+from twitchio import ChatterColor
 
 oauth_token = refreshToken()
 cardnames = getCardNames()
 cardByRarity = getRarityCards()
 
+
+normal_color = '#FFFFFF'
+
 class Bot(commands.Bot):
+    
+    
 
     def __init__(self):
         super().__init__(token=f'oauth:{oauth_token}', prefix=')', initial_channels=['flekyu'])
@@ -18,10 +25,15 @@ class Bot(commands.Bot):
     async def event_ready(self):
         print(f'Bot connected to Twitch')
 
+        chatterColor : ChatterColor = (await commands.Bot.fetch_chatters_colors(self, [self.user_id], f'oauth:{oauth_token}'))[0]
+        normal_color = chatterColor.color
+
     async def event_message(self, message):
         if (message.echo): return
+
+        await Bot.update_chatter_color(self, f'oauth:{oauth_token}', self.user_id, bot_color)
         await self.handle_commands(message)
-        
+        await Bot.update_chatter_color(self, f'oauth:{oauth_token}', self.user_id, normal_color)
 
 
     @commands.command() # flekyu: !open

@@ -1,0 +1,1 @@
+bot_color = '#ff004c'
